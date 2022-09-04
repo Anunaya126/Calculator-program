@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Calculator|version 1.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p class="calc_head">Calculator ARplus 1.0</p>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <input type="text" id="result" class="screen">
+                </td>
+                <td>
+                    <input type="button" value="CLR" onclick="clearscreen()" class="clear_btn">
+                </td>
+            </tr>
+        </table>
+        <div class="keys">
+            <input type ="button" value="7" onclick='display("7")' class="num_btn"></input>
+            <input type ="button" value="8" onclick='display("8")' class="num_btn"></input>
+            <input type ="button" value="9" onclick='display("9")' class="num_btn"></input>
+            <input type ="button" value="/" onclick='display("/")' class="opt_btn"></input>
+            <input type ="button" value="4" onclick='display("4")' class="num_btn"></input>
+            <input type ="button" value="5" onclick='display("5")' class="num_btn"></input>
+            <input type ="button" value="6" onclick='display("6")' class="num_btn"></input>
+            <input type ="button" value="*" onclick='display("*")' class="opt_btn"></input>
+            <input type ="button" value="1" onclick='display("1")' class="num_btn"></input>
+            <input type ="button" value="2" onclick='display("2")' class="num_btn"></input>
+            <input type ="button" value="3" onclick='display("3")' class="num_btn"></input>
+            <input type ="button" value="-" onclick='display("-")' class="opt_btn"></input>
+            <input type ="button" value="0" onclick='display("0")' class="num_btn"></input>
+            <input type ="button" value="." onclick='display(".")' class="num_btn"></input>
+            <input type ="button" value="=" onclick='solve()' class="eql_btn"></input>
+            <input type ="button" value="+" onclick='display("+")' class="opt_btn"></input>
+        </div>
+    </div>
+
+</body>
+
+</html>

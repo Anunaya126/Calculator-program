@@ -1,0 +1,68 @@
+.calc_head {
+    font-style: italic;
+    padding: 4px 10px;
+    margin: 1px 0px;
+
+}
+
+.container {
+    border: 2px solid black;
+    max-width: 200px;
+    height:260px;
+    background-color: rgb(192, 190, 190);
+}
+
+.screen {
+    margin-left: 1px;
+    padding-left: 10px;
+    height: 30px;
+    width: 82%;
+    background-color: rgb(24, 24, 24);
+    color:white;
+    text-align: right;
+}
+
+.clear_btn {
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    box-shadow: 1px 1px rgb(66, 66, 66);
+    position:relative;
+    left: -8px;
+    background-color: red;
+    font-weight: bold;
+    
+}
+
+.keys{
+    margin-left: 2px;
+}
+
+.num_btn {
+    height: 40px;
+    width: 40px;
+    margin:2px;
+    padding:2px;
+    box-shadow: 1px 1px rgb(66, 66, 66);
+    background-color: rgb(212, 212, 212);
+}
+
+.opt_btn {
+    height: 40px;
+    width: 40px;
+    margin:2px;
+    padding:2px;
+    box-shadow: 1px 1px rgb(66, 66, 66);
+    background-color: orangered;
+}
+
+.eql_btn {
+    height: 40px;
+    width: 40px;
+    margin:2px;
+    padding:2px;
+    box-shadow: 1px 1px rgb(248, 248, 248);
+    color:white;
+    background-color: black;
+
+}
